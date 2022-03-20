@@ -1,0 +1,68 @@
+.intro {
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.questions {
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+label {   
+	padding: 8px 22px;
+	cursor: pointer;
+	background: #eeede7;
+    border-top: 2px solid #cacac9;
+	border-radius: 3px;
+	color: rgb(0, 0, 0);
+	transition: ease 0.5s;
+}
+
+label img {
+    width: 30px;
+    height: 30px;
+    margin-top: -20px;
+    margin-right: -105px;
+    margin-left: 80%;
+    transform: rotate(90deg);
+}
+
+label p {
+    text-align: left;
+    font-size: 30px;
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: -20px;
+}
+label:hover {
+    background: #cacac9;
+}
+.content {
+    background: #eeede7;
+    padding: 10px 25px;
+	margin: 0 0 1px 0;
+	border-radius: 3px;
+    margin-top: -3px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.questions input + .content{
+    display: none;
+}
+
+.questions input:checked + .content {
+    display: block;
+}
+
+.questions input {
+    display: none;
+}
+
+.A_format {
+    display: block;
+    margin: auto;
+}

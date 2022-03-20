@@ -1,0 +1,240 @@
+/* article page */
+.grid-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-auto-rows: 200px;
+    grid-gap: 33.33px;
+}
+
+.article-title {
+    font-size: 25px;
+    color: black;
+    margin-top: -50px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    background-color: white;
+    width: 194px;
+    margin-left: -3px;
+    position: absolute;
+    z-index: 1;
+    transition: all .2s ease-in-out;
+    border-left: 3px solid rgb(143, 143, 143);
+    border-right: 3px solid rgb(143, 143, 143);
+    border-bottom: 3px solid rgb(143, 143, 143);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.grid-item {
+    overflow: hidden;
+    border: 3px solid rgb(143, 143, 143);
+    border-radius: 5px;
+}
+
+.grid-item img, .grid-item alt {
+    width: 200px;
+    height: 200px;
+    transition: transform .5s ease;
+}
+
+.grid-item:hover img , .temp-img:hover{
+    transform: scale(1.2);
+}
+    
+.grid-item:hover > .article-title{
+    height: 30px;
+    margin-top: -30px;
+    transform: scale(1.1);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    border: 2px solid rgb(143, 143, 143);
+}
+
+/* product page */
+
+.back-arrow {
+    color: black;
+    font-size: 30px;
+}
+
+.arrow-img {
+    width: 50px;
+    margin-bottom: -15px;
+    margin-left: -50%;
+}
+
+.article-main {
+    margin-top: 50px;
+    margin-left: 3%;
+    display: flex;
+}
+
+
+.gallery {
+    flex: 2;
+}
+
+.gallery-big {
+    border: 3px solid gray;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    display: flex;
+}
+
+.gallery-big img {
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+
+#gallery-img0 {
+    display: block;
+}
+
+.gallery-small {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    width: 506px;
+    height: 121px;
+}
+.gallery-small-img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 0% 5% 0% 5%;
+}
+
+.gallery-small-few {
+    background-color: #eeede7;
+}
+
+.article-order {
+    flex: 1;
+}
+
+.article-text {
+    font-size: 70px;
+    padding-top: 5%;
+    margin-top: 100px;
+}
+
+.article-main a {
+    color: black;
+    font-size: 30px;
+    padding: 30px 50px 30px 50px;
+    background-color: rgb(167, 167, 167);
+    transition: background-color 2s ease-out;
+}
+
+.article-main a:hover {
+    background-color: rgb(107, 107, 107);
+}
+
+.article-sub {
+    font-size: 20px;
+    margin-top: 350px;
+    display: flex;
+    align-items: flex-start;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 50px;
+}
+
+.texts {
+    display: block;
+    margin-top: -250px;
+    flex: 2;
+    padding-right: 10%;
+}
+
+.texts-no-link {
+    display: block;
+    margin-top: -250px;
+    flex: 1;
+}
+
+.text-single {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-single h2 {
+    font-size: 30px;
+}
+
+label {
+    display: block;    
+	padding: 8px 22px;
+	cursor: pointer;
+	background: #eeede7;
+    border-top: 2px solid #cacac9;
+	border-radius: 3px;
+	color: rgb(0, 0, 0);
+	transition: ease 0.5s;
+}
+
+label img {
+    width: 30px;
+    height: 30px;
+    margin-top: -20px;
+    margin-right: -105px;
+    margin-left: 80%;
+    transform: rotate(90deg);
+}
+
+label p {
+    text-align: left;
+    font-size: 30px;
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: -20px;
+}
+label:hover {
+    background: #cacac9;
+}
+.content {
+    background: #eeede7;
+    padding: 10px 25px;
+	margin: 0 0 1px 0;
+	border-radius: 3px;
+    margin-top: -3px;
+}
+
+.article-sub input + .content{
+    display: none;
+}
+
+.article-sub input:checked + .content {
+    display: block;
+}
+
+.article-sub input {
+    display: none;
+}
+
+.links {
+    flex: 1;
+    margin-top: -400px;
+    border: 3px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.links a {
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+}

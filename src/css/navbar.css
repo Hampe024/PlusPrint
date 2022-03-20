@@ -1,0 +1,46 @@
+.selected {
+    color: #311b05;
+}
+
+header {
+    background-color: #746c70;
+    height: 70px;
+}
+
+li {
+    height: 100px;
+    margin-top: -10px;
+}
+
+.navbar {
+    margin-top: -60px;
+    height: 10px;
+    list-style: none;
+    margin-left: -4%;
+}
+
+.navbar a {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 10%;
+    color: #66370b;
+}
+
+.navbar a:hover {
+    color: #311b05;
+}
+
+.bar {
+    background-color: #4e4f50;
+    height: 10px;
+}
+
+.logo {
+    width: 200px;
+}
+
+nav {
+    margin-bottom: 140px;
+}
