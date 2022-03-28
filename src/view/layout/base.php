@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="../src/css/home.css">
         <link rel="stylesheet" href="../src/css/products.css">
         <link rel="stylesheet" href="../src/css/FAQ.css">
+        <link rel="stylesheet" href="../src/css/about.css">
         <link rel="icon" href="../src/img/Temporär.png">
     </head>
     <body>

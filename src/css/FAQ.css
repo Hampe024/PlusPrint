@@ -62,7 +62,8 @@ label:hover {
     display: none;
 }
 
-.A_format {
+.format {
+    width: 80%;
     display: block;
     margin: auto;
 }
