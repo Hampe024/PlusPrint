@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="../src/css/products.css">
         <link rel="stylesheet" href="../src/css/FAQ.css">
         <link rel="stylesheet" href="../src/css/about.css">
+        <link rel="stylesheet" href="../src/css/adm.css">
+        <script src="../src/script.js"></script> 
         <link rel="icon" href="../src/img/Temporär.png">
     </head>
     <body>

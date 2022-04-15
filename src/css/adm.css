@@ -1,0 +1,23 @@
+#dropDowns {
+    width: 300px;
+    margin: auto;
+}
+
+.dropdown_adm {
+    margin-bottom: 50px;
+    width: 300px;
+    font-size: 30px;
+}
+
+textarea {
+    font-size: 25px;
+    resize: none;
+    overflow: hidden;
+    min-height: 25px;
+    max-width: 800px;
+    width: 80%;
+}
+
+#submitDiv {
+    display: none;
+}

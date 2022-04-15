@@ -12,7 +12,6 @@ $article = $data[1];
         document.getElementById(id).style.display = "block";
     }
 </script>
-<script src="../src/script.js"></script> 
 
 
 <a href="../Products" class="back-arrow">
