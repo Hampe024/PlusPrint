@@ -20,8 +20,8 @@ li {
 }
 
 .navbar a {
-    font-size: 30px;
-    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
     margin-left: 4%;
     margin-right: 4%;
     width: 10%;

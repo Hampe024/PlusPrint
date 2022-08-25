@@ -3,7 +3,7 @@ let text = ""
 
 function auto_grow(element) {
     element.style.height = "5px";
-    element.style.height = (element.scrollHeight)+"px";
+    element.style.height = (element.scrollHeight) + "px";
 }
 
 
@@ -28,7 +28,7 @@ function addDataToDropDown(element, div = "") {
         .then(response => response.json())
         .then(json => {
 
-            try { 
+            try {
                 if (div != "") { // false if function called via loader()
                     for (let child of div.children) {
                         if (typeof (json[child.value]) != "string") {
@@ -106,26 +106,26 @@ function editCurrent() {
     doTextarea()
 }
 
-function saveEdit() {
+// function saveEdit() {
 
-    var newJson = JSON.parse(document.getElementById("textarea").children[0].innerHTML) 
-    console.log(newJson)
+//     var newJson = JSON.parse(document.getElementById("textarea").children[0].innerHTML)
+//     console.log(newJson)
 
-    fetch("../src/data copy.json", { method: 'POST' })
-        .then(response => response.json())
-        .then(json => {
+//     fetch("../src/data copy.json", { method: 'POST' })
+//         .then(response => response.json())
+//         .then(json => {
 
-            for (let child of document.getElementById("dropDowns").children) {
-                if (typeof (json[child.value]) != "string") {
-                    json = json[child.value]
-                    text = JSON.stringify(json)
-                }
-                else {
-                    text = json[child.value]
-                }
-            }
-        }
+//             for (let child of document.getElementById("dropDowns").children) {
+//                 if (typeof (json[child.value]) != "string") {
+//                     json = json[child.value]
+//                     text = JSON.stringify(json)
+//                 }
+//                 else {
+//                     text = json[child.value]
+//                 }
+//             }
+//         }
 
 
-        document.getElementById("submitDiv").style.display = "none"
-}
+//     document.getElementById("submitDiv").style.display = "none"
+// }
